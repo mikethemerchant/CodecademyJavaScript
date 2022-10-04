@@ -10,6 +10,6 @@ laterYears *= 4;
 // my dog age
 myAgeInDogYears = earlyYears + laterYears;
 // lower case my name
-var myName = 'MIKE'.toLowerCase();
+var myName = 'MIKE'.toUpperCase();
 // end game
 console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
